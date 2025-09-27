@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Unreal Ollama",
+	"Description": "Ollama integration for Unreal Engine. Run local LLMs in your games and applications.",
+	"Category": "AI",
+	"CreatedBy": "Muddy Terrain Games",
+	"CreatedByURL": "https://muddyterrain.com/",
+	"DocsURL": "https://muddyterrain.com/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/",
+	"SupportURL": "https://muddyterrain.com/contact",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UnrealOllama",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS",
+				"PS4",
+				"XboxOne",
+				"Switch",
+				"HoloLens"
+			]
+		}
+	],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false
+}
