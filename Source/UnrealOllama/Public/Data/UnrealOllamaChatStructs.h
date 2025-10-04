@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/Texture2D.h"
 #include "UnrealOllama.h"
 #include "UnrealOllamaChatStructs.generated.h"
 

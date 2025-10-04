@@ -11,6 +11,7 @@
 #include "Serialization/JsonWriter.h"
 #include "JsonUtilities.h"
 #include "UnrealOllamaLog.h"
+#include "UnrealOllamaUtils.h"
 #include "Runtime/Launch/Resources/Version.h"
 
 UUnrealOllamaChatStream* UUnrealOllamaChatStream::RequestOllamaChatStream(UObject* WorldContextObject,
